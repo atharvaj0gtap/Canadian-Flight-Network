@@ -1,0 +1,102 @@
+airport1,airport2
+Victoria,Kelowna
+Victoria,Prince George
+Victoria,Toronto
+Victoria,Kamloops
+Abbotsford,Toronto
+Kamloops,Victoria
+Kelowna,Victoria
+Kelowna,Toronto
+Kelowna,Prince George
+Prince George,Kelowna
+Gander,Halifax
+Gander,Toronto
+Gander,St. Johns
+Regina,Toronto
+Saskatoon,Toronto
+Saskatoon,Winnipeg
+Winnipeg,Toronto
+Winnipeg,Ottawa
+Winnipeg,Montreal
+Winnipeg,Halifax
+Winnipeg,Saskatoon
+Winnipeg,Thunder Bay
+Hamilton,Toronto
+Hamilton,Halifax
+Toronto,St. Johns
+Toronto,Ottawa
+Toronto,Montreal
+Toronto,Québec City
+Toronto,Halifax
+Toronto,Thunder Bay
+Toronto,Charlottetown
+Toronto,Saskatoon
+Toronto,Hamilton
+Toronto,Winnipeg
+Toronto,Regina
+Toronto,Fort McMurray
+Toronto,Gander
+Toronto,Kelowna
+Toronto,Victoria
+Toronto,Fredericton
+Toronto,Greater Moncton
+Toronto,Yellowknife
+Kitchener,Toronto
+Kitchener,Halifax
+Ottawa,Thunder Bay
+Ottawa,Toronto
+Ottawa,Fredericton
+Ottawa,Montreal
+Ottawa,Billy Bishop
+Thunder Bay,Toronto
+Thunder Bay,Winnipeg
+Thunder Bay,Billy Bishop
+Thunder Bay,Ottawa
+Montreal,St. Johns
+Montreal,Toronto
+Montreal,Charlottetown
+Montreal,Billy Bishop
+Montreal,Québec City
+Montreal,Ottawa
+Montreal,Halifax
+Montreal,Winnipeg
+Montreal,Victoria
+Montreal,Kelowna
+Montreal,Greater Moncton
+Québec City,Toronto
+Québec City,Montreal
+Québec City,Ottawa
+Fredericton,Montreal
+Fredericton,Toronto
+Fredericton,Ottawa
+Fredericton,Billy Bishop
+Greater Moncton,Billy Bishop
+Greater Moncton,St. Johns
+Greater Moncton,Toronto
+Greater Moncton,Montreal
+Greater Moncton,Ottawa
+Halifax,Toronto
+Halifax,Ottawa
+Halifax,St. Johns
+Halifax,Montreal
+Halifax,Gander
+Charlottetown,Ottawa
+Charlottetown,Montreal
+Charlottetown,Toronto
+St. Johns,Halifax
+St. Johns,Montreal
+St. Johns,Toronto
+St. Johns,Gander
+St. Johns,Ottawa
+Dawson City,Whitehorse
+Whitehorse,Dawson City
+Whitehorse,Yellowknife
+Yellowknife,Whitehorse
+Yellowknife,Toronto
+Billy Bishop,Montreal
+Billy Bishop,Ottawa
+Billy Bishop,Halifax
+Billy Bishop,Thunder Bay
+Billy Bishop,Greater Moncton
+Billy Bishop,Québec City
+Billy Bishop,Fredericton

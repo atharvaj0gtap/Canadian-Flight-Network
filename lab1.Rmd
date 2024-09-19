@@ -1,0 +1,57 @@
+---
+title: "Assignment 1"
+author: "Atharva Jagtap 39283783"
+date: "9/16/2024 - 9/18/2024"
+output: pdf_document
+---
+
+```{r}
+nodes <- read.csv("Names.csv", header=TRUE)
+edges <- read.csv("Edges.csv", header=TRUE)
+
+library(igraph)
+airports <- graph_from_data_frame(edges, nodes, directed=FALSE)
+vertex_attr(airports) <- list(name = nodes$Code)
+```
+
+```{r}
+#1
+cat("Number of nodes:", vcount(airports), "\n")
+cat("Number of edges:", ecount(airports), "\n")
+```
+
+```{r}
+#2
+par(mar=c(1,1,1,1), oma=c(0,0,0,0), cex=1.5)
+
+plot(airports, vertex.label=V(airports)$Code, vertex.size=8, edge.arrow.size=1,layout=layout_with_kk, main="Airport Network", vertex.label.cex=0.5)
+```
+
+```{r}
+#3
+deg <- degree(airports)
+mean_degree <- mean(deg)
+
+most_connected <- names(sort(deg, decreasing=TRUE)[0:2])
+least_connected <- names(sort(deg, decreasing=FALSE)[0:2])
+
+cat("Mean degree:", mean_degree, "\n")
+cat("Most connected airports:", most_connected, "\n")
+cat("Least connected airports:", least_connected, "\n")
+```
+
+```{r}
+#4
+hist(deg, main="Degree Distribution", xlab="Degree", ylab="Frequency")
+```
+
+```{r}
+#5
+adj_matrix <- as_adjacency_matrix(airports)
+is_symmetric <- isSymmetric(as.matrix(adj_matrix))
+
+cat("Adjacency Matrix:\n")
+print(as.matrix(adj_matrix))
+cat("Is the matrix symmetric?", is_symmetric, "\n")
+
+```
