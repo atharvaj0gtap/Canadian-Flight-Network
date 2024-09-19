@@ -1,8 +1,8 @@
 # Canadian-Flight-Network
 
-This is the flight network of the following Canadian airports with the international airport codes as shown in the following table as of 9/18/2024
+This is the flight network of the following Canadian airports with the international airport codes as shown in the following table as of 9/18/2024.
 
-airport and code
+airport and code:
 
 Victoria YYJ
 Fort St. John YXJ
